@@ -12,6 +12,7 @@ google-pasta==0.2.0
 grpcio==1.32.0
 h5py==2.10.0
 idna==3.2
+imageai==2.1.6
 Keras==2.4.3
 Keras-Preprocessing==1.1.2
 keras-resnet==0.2.0

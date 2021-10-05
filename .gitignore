@@ -1,1 +1,3 @@
+.DS_Store
+models/*.h5
 virtualenv
