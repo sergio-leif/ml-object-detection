@@ -11,14 +11,14 @@ Download one of the next pre-trained models and save it in the models folder.
  - **[InceptionV3](https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/inception_v3_weights_tf_dim_ordering_tf_kernels.h5)** by Google Brain team _(Size = 91.6 mb, slow prediction time and higher accuracy)_
  - **[DenseNet121](https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/DenseNet-BC-121-32.h5)** by Facebook AI Research _(Size = 31.6 mb, slower prediction time and highest accuracy)_
 
-# Detection
+# Object Detection
 ## Download Model
 
 * **[RetinaNet](https://github.com/OlafenwaMoses/ImageAI/releases/download/essentials-v5/resnet50_coco_best_v2.1.0.h5)** _(Size = 145 mb, high performance and accuracy, with longer detection time)_
 * **[YOLOv3](https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo.h5)** _(Size = 237 mb, moderate performance and accuracy, with a moderate detection time)_
 * **[TinyYOLOv3](https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo-tiny.h5)** _(Size = 34 mb, optimized for speed and moderate performance, with fast detection time)_
 
-# Output 
+## Output 
 
 Once executed [detection.py](./detection.py), the console exit would be similar to:
 
@@ -44,6 +44,14 @@ keyboard  :  33.52274298667908  :  [139, 281, 248, 316]
 ```
 
 And a new image will be created with the object detection of the picture.
+
+# Video Detection
+## Download Model
+
+- **[RetinaNet](https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/resnet50_coco_best_v2.0.1.h5)** _(Size = 145 mb, high performance and accuracy, with longer detection time)_
+- **[YOLOv3](https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo.h5)** _(Size = 237 mb, moderate performance and accuracy, with a moderate detection time)_
+- **[TinyYOLOv3](https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo-tiny.h5)** _(Size = 34 mb, optimized for speed and moderate performance, with fast detection time)_
+
 
 # References
 
